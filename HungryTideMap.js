@@ -29,6 +29,10 @@ document.addEventListener("DOMContentLoaded", function () {
     
     locations.forEach(location => {
         var marker = L.marker(location.coords).addTo(map);
-        marker.bindPopup(`<div class="popup-content"><strong>${location.name}</strong><br>${location.desc}<br><img src="images/${location.img}" alt="${location.name}" style="width:100%; border-radius:10px; margin-top:10px;"></div>`);
+        marker.bindPopup(`<div class="popup-content">
+            <strong>${location.name}</strong><br>${location.desc}
+            <br><img src="assets/images/${location.img}" alt="${location.name}" 
+            style="width:100%; border-radius:10px; margin-top:10px;"></div>`);
+        
     });
 });
