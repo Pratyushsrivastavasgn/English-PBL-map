@@ -16,15 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Canning", coords: [22.3200, 88.6600], desc: "A real town on the fringes of the Sundarbans, serving as the main gateway to the tide country...", img: "canning.jpg" },
         { name: "Gosaba", coords: [22.1650, 88.8000], desc: "A significant settlement in the Sundarbans, historically founded by Sir Daniel Hamilton...", img: "gosaba.jpg" },
         { name: "Morichjhãpi", coords: [21.8500, 88.6000], desc: "A real island with a tragic history, Morichjhãpi was the site of a violent eviction of refugees in 1979...", img: "Marichjhapi.jpg" },
-        { name: "Emilybari", coords: [21.9000, 89.2000], desc: "One of the minor locations mentioned along the journey to Lusibari...", img: "emilybari.jpg" },
-        { name: "Raimangal River", coords: [21.7000, 89.0000], desc: "A vast and powerful river that flows through the Sundarbans, known for its strong tides and treacherous waters...", img: "Raimangal.jpg" },
+        { name: "Raimangal River", coords: [21.7000, 89.0000], desc: "A vast and powerful river that flows through the Sundarbans, known for its strong tides and treacherous waters...", img: "raimangal.jpg" },
         { name: "Satjelia", coords: [22.1000, 88.8500], desc: "A real island in the Sundarbans and the home of Fokir and his family...", img: "satjelia.jpg" },
-        { name: "Megha River", coords: [22.3000, 89.5000], desc: "One of the many waterways crisscrossing the Sundarbans, the Megha River is where Piya and Fokir track the movement of the Irrawaddy dolphins...", img: "megha.jpg" },
+        { name: "Megha River", coords: [22.3000, 89.5000], desc: "One of the many waterways crisscrossing the Sundarbans, the Megha River is where Piya and Fokir track the movement of the Irrawaddy dolphins...", img: "Megha.jpg" },
         { name: "Mohona (Estuary)", coords: [21.7500, 89.2500], desc: "The meeting point of multiple river channels where the freshwater and seawater mix...", img: "mohona.jpg" },
-        { name: "Gerafitola", coords: [21.8000, 89.1000], desc: "A secluded and mysterious location where Fokir anchors the boat during one of his trips with Piya...", img: "gerafitola.jpg" },
-        { name: "Champahati", coords: [22.2500, 88.7500], desc: "A train station on the way to Canning, marking the transition from the urban sprawl of Kolkata to the rural and watery landscape of the Sundarbans...", img: "champahati.jpg" },
+        { name: "Champahati", coords: [22.2500, 88.7500], desc: "A train station on the way to Canning, marking the transition from the urban sprawl of Kolkata to the rural and watery landscape of the Sundarbans...", img: "Champahati.jpg" },
         { name: "Matla River", coords: [22.1000, 88.7000], desc: "Another major river in the Sundarbans, playing a crucial role in local trade and travel...", img: "matla.jpg" },
-        { name: "Annpur and Jamespur", coords: [22.0500, 88.6000], desc: "Small settlements mentioned in the journey to Lusibari, these places represent the scattered human presence in the Sundarbans...", img: "annpur_jamespur.jpg" }
     ];
     
     locations.forEach(location => {
