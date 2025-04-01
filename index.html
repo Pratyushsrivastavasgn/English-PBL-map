@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>
         body {
-            background: #f5f1e8; /* Aged paper effect */
+            background-image: url(assets/images/background.jpg);
+            background-attachment:fixed;
             font-family: 'Times New Roman', serif;
         }
         #map {
@@ -33,12 +34,53 @@
         .title {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
+        .navbar{
+            width: 95vw;
+        }
+        .navbar a{
+            color: white !important;
+        }
+        .dropdown-menu a{
+            color: #AA6710 !important;
+        }
     </style>
 </head>
+<nav class="navbar navbar-expand-lg  sticky-top"  style="background-color:#AA6710;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sundarbans Seekers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About the Author</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quiz Time!!</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Let's Learn!
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-dark" href="assets/NovelContents/the-hungry-tide.pdf" target="_blank" rel="noopener noreferrer">Complete Novel</a></li>
+                <li><a class="dropdown-item text-dark" href="#" target="_blank" rel="noopener noreferrer">Summary of the Novel</a></li>
+                <li><a class="dropdown-item text-dark" href="#" target="_blank" rel="noopener noreferrer">Something else here</a></li>
+                
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 <body class="d-flex flex-column align-items-center p-4">
     <div class="container text-center">
         <h1 class="display-4 fw-bold text-dark title">The Hungry Tide - Interactive Map</h1>
-        <p class="lead text-secondary">Explore the world of <em>The Hungry Tide</em> through this immersive map.</p>
+        <p class="lead text-secondary text-dark">Explore the world of <em>The Hungry Tide</em> through this immersive map.</p>
     </div>
     
     <div class="container my-4 map-container">
