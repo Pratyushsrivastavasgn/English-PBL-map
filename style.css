@@ -1,0 +1,46 @@
+body {
+    background-image: url(assets/images/background.jpg);
+    background-attachment:fixed;
+    font-family: 'Times New Roman', serif;
+}
+#map {
+    height: 500px;
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.leaflet-container {
+    filter: sepia(30%) contrast(85%) brightness(90%);
+}
+.map-container {
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+}
+.popup-content {
+    font-size: 14px;
+    font-style: italic;
+    color: #3a3a3a;
+}
+.title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar{
+    width: 95vw;
+}
+.navbar a{
+    color: white !important;
+}
+.dropdown-menu a{
+    color: #AA6710 !important;
+}
+/* styles.css */
+.leaflet-popup-content {
+    width: 200px !important;  /* Adjust the width */
+    font-size: 12px; /* Reduce font size if needed */
+}
+
+.popup-content img {
+    width: 100%; 
+    max-height: 100px; /* Limit image height */
+}

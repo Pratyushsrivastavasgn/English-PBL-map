@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Morichjhãpi", coords: [21.8500, 88.6000], desc: "A real island with a tragic history, Morichjhãpi was the site of a violent eviction of refugees in 1979...", img: "Marichjhapi.jpg" },
         { name: "Raimangal River", coords: [21.7000, 89.0000], desc: "A vast and powerful river that flows through the Sundarbans, known for its strong tides and treacherous waters...", img: "raimangal.jpg" },
         { name: "Satjelia", coords: [22.1000, 88.8500], desc: "A real island in the Sundarbans and the home of Fokir and his family...", img: "satjelia.jpg" },
-        { name: "Megha River", coords: [22.3000, 89.5000], desc: "One of the many waterways crisscrossing the Sundarbans, the Megha River is where Piya and Fokir track the movement of the Irrawaddy dolphins...", img: "Megha.jpg" },
+        { name: "Megha River", coords: [22.3000, 89.5000], desc: "One of the many waterways crisscrossing the Sundarbans, the Megha River is where Piya and Fokir track the movement of the Irrawaddy dolphins...", img: "Meghna.jpg" },
         { name: "Mohona (Estuary)", coords: [21.7500, 89.2500], desc: "The meeting point of multiple river channels where the freshwater and seawater mix...", img: "mohona.jpg" },
         { name: "Champahati", coords: [22.2500, 88.7500], desc: "A train station on the way to Canning, marking the transition from the urban sprawl of Kolkata to the rural and watery landscape of the Sundarbans...", img: "Champahati.jpg" },
         { name: "Matla River", coords: [22.1000, 88.7000], desc: "Another major river in the Sundarbans, playing a crucial role in local trade and travel...", img: "matla.jpg" },
